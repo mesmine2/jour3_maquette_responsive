@@ -1,0 +1,13 @@
+.navbar{
+    background-color: olive;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}

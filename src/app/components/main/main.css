@@ -1,0 +1,31 @@
+.main{
+    background-color: rgb(99, 113, 193);
+    height: calc(100% - 10px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    gap: 5px;
+    padding: 5px;
+}
+#article {
+    flex: 4;
+    height: 100%;
+    width: 100%;
+}
+#aside-container {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+}
+
+/* vue tablette */
+@media(max-width:900px){
+    .main{
+        flex-direction: column;
+       
+    }
+}

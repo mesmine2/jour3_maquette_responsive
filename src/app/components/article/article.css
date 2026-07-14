@@ -1,0 +1,11 @@
+article {
+background-color: teal;
+width: 100%;
+height: 100%;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+text-transform: uppercase;
+font-weight: bold;
+}
