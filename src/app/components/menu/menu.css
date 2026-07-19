@@ -1,0 +1,26 @@
+.menu a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+.menu li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.menu .active{
+    color: red ;
+}
+.rouge{
+    color:red;
+}
+.vert{
+    color:green;
+}
+.gris{
+    color: gray;
+}
+
+.compteur{
+    display: flex;
+    justify-content:space-around;
+}

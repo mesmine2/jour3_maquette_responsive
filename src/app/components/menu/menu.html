@@ -1,0 +1,27 @@
+<div class="menu">
+    @if(clique){
+        @for(items of liens; track items; let first = $first){
+            @if (first){
+                <li><a href="#" [class.active]="couleur">{{items}}</a></li>
+            }
+            @else {
+                <li><a href="#">{{items}}</a></li>
+            }
+            
+        }
+    }
+        <button (click)="togglebutton()" class="btn btn-warning">Toggle Menu</button>
+
+        <div class="compteur">
+            <button (click)="toggleNegatif()" class="btn btn-danger">-</button>
+            <button (click)="togglePositif()" class="btn btn-warning">+</button>
+            <span [ngClass]="{
+                'rouge':count<0,
+                'vert':count>0,
+                'gris':count===0
+            }">
+                {{count}}
+            </span>
+        </div>
+      
+</div>

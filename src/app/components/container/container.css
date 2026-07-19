@@ -1,20 +1,13 @@
-.container{
+
+.app-container {
     background-color: rgb(255, 255, 255);
     height: calc(100vh - 200px);
-    display: flex;
 }
-.nav{
+/* il ne s'agit pas de app-container definie dans app.html, ici on l'indexe avec point */
+.nav-col {
     flex: 1;
-    width: 100%;
-    
 }
-.main{
-    flex: 3;
-}
-/* vue mobile */
 
-@media(max-width:600px){
-    .container{
-        flex-direction: column;
-    }
+.main-col {
+    flex: 3;
 }

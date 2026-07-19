@@ -1,8 +1,8 @@
 header{
-    background-color: rgb(70, 138, 70);
+    background-color: black;
     height: 100px;
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     font-size: 30px;
     color: white;
