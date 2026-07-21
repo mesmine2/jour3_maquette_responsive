@@ -10,17 +10,29 @@
 .menu .active{
     color: red ;
 }
-.rouge{
-    color:red;
-}
-.vert{
-    color:green;
-}
-.gris{
-    color: gray;
+
+.menu{
+    padding-top: 0px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
-.compteur{
-    display: flex;
-    justify-content:space-around;
+@media (max-width:600px){
+    .menu li{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+   .menu a {
+    font-size: 0.8rem;
+   }
+   .menu{
+    padding-top: 0px;
+    flex-direction: row;
+    gap:30px;
+    padding-right: 30px;
+   }
+    
 }

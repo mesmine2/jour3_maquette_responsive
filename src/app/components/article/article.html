@@ -1,1 +1,14 @@
-<article>ARTICLE</article>
+<article>
+    <p>ARTICLE</p> 
+    <div class="compteur">
+            <button (click)="toggleNegatif()" class="btn btn-danger">-</button>
+            <button (click)="togglePositif()" class="btn btn-warning">+</button>
+            <span [ngClass]="{
+                'rouge':count<0,
+                'vert':count>0,
+                'gris':count===0
+            }">
+                {{count}}
+            </span>
+        </div>
+</article>

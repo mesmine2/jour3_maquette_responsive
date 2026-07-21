@@ -9,3 +9,17 @@ align-items: center;
 text-transform: uppercase;
 font-weight: bold;
 }
+.rouge{
+    color:red;
+}
+.vert{
+    color:green;
+}
+.gris{
+    color: gray;
+}
+.compteur{
+    margin: 30px;
+    display: flex;
+    gap: 20px;
+}
